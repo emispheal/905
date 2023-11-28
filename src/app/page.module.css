@@ -227,3 +227,8 @@
     transform: rotate(0deg);
   }
 }
+
+.bob {
+  font-size: 500%;
+  color: rgb(16, 106, 184);
+}
