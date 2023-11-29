@@ -5,7 +5,8 @@ import React, { useState, useEffect } from "react";
 import Image from 'next/image'
 import styles from './page.module.css'
 
-
+import Card from "./card.js"
+import MessageCard from "./message_card";
 import Form from './form.js'
 
 export default function Home() {
@@ -31,7 +32,11 @@ export default function Home() {
 
         <Form setUserLogged={setUserLogged}/>
          
-        <h1 className={styles.bob}>assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}</h1>
+
+         <Card><p>yo bob</p></Card>
+
+         <MessageCard></MessageCard>
+        {/* <h1 className={styles.bob}>assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}assasdasdad{'\n'}</h1> */}
       </div>
     </main>
   )
